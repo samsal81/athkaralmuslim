@@ -151,3 +151,23 @@ h1{
     margin-bottom: 1em;
     font-size: 3rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: hsl(180, 79%, 62%); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: hsl(180, 97%, 38%); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: teal; 
+  }
