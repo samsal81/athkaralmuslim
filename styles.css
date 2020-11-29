@@ -170,11 +170,11 @@ h1 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: hsl(180, 27%, 26%);
+    background: yellow;
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(180, 40%, 12%);
+    background: hsl(214, 96%, 38%);
 }
