@@ -164,17 +164,17 @@ h1 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: hsl(180, 79%, 62%);
+    background: hsl(0, 0%, 90%);
     border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: hsl(0, 0%, 90%);
+    background: hsl(180, 27%, 26%);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: teal;
+    background: hsl(180, 40%, 12%);
 }
