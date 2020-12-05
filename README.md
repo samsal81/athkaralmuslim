@@ -7,3 +7,5 @@
 3. Athkar after obligatory prayers
 4. Athkar before sleeping and wake up
 ### ....and more
+
+#### Website address: https://samsal81.github.io/athkaralmuslim/
