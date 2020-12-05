@@ -157,6 +157,10 @@ h1 {
     height: 100px;
 }
 
+*:focus {
+    outline: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
