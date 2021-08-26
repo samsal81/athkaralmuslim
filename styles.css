@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+#title {
+    color: rgb(4, 148, 148);
+}
+
 h3,
 h5,
 h4,
@@ -28,6 +32,10 @@ p {
     margin: 0.1em 1em;
     font-weight: bold;
     font-size: 150%;
+}
+
+h4 {
+    color: yellow;
 }
 
 p {
@@ -51,6 +59,7 @@ hr {
     text-align: center;
     margin: 2em auto;
     overflow: visible;
+    background: hsl(60, 100%, 50%);
     /* For IE */
     padding: 0;
     border: none;
@@ -172,11 +181,28 @@ button:focus {outline:0;}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: yellow;
+    background: hsl(56, 100%, 50%);
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(214, 96%, 38%);
+    background: hsl(46, 100%, 49%);
 }
+
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: rgb(245, 244, 224);
+    position: fixed;
+    background-color: hsl(180, 70%, 15%);
+    padding-left: 0.5em;
+    width: 100%;
+    margin: 0em;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: yellow;
+    width: 0%;
+  }
