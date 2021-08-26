@@ -27,7 +27,11 @@
 
 <body>
 
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; جوامع الدعاء</span>
+    <span id="title" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; جوامع الدعاء
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </span>  
 
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -52,9 +56,6 @@
     </div>
 
     <main>
-        <br>
-        <br>
-        <br>
         <br>
         <br>
         <h3>اللَّهُمَّ يَا بَارِئَ البَرِيَّاتِ ، وَغَافِرَ الخَـطِيَّاتِ ، وَعَالِمَ الخَفِيَّاتِ ، المُطَّلِعُ عَلَى
@@ -697,6 +698,17 @@
         <br>
     </main>
     <script src="scripts.js"></script>
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        };
+    </script>
 
 </body>
 
