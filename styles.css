@@ -22,12 +22,14 @@ body {
 
 #title {
     color: rgb(4, 148, 148);
+    position: fixed;
+    background-color: hsl(180, 70%, 15%);
+    padding: 0.5em 0.9em;
+    width: 100%;
+    margin: 0em;
 }
 
-h3,
-h5,
-h4,
-p {
+h3, h5, h4, p {
     text-align: center;
     margin: 0.1em 1em;
     font-weight: bold;
@@ -35,13 +37,14 @@ p {
 }
 
 h4 {
-    color: yellow;
+    color: rgb(4, 148, 148);
 }
 
 p {
     font-style: italic;
     font-size: smaller;
     margin-top: 2em;
+    color: yellow;
 }
 
 h6 {
@@ -59,19 +62,11 @@ hr {
     text-align: center;
     margin: 2em auto;
     overflow: visible;
-    background: hsl(60, 100%, 50%);
+    color: rgb(4, 148, 148);
     /* For IE */
     padding: 0;
     border: none;
     border-top: medium double;
-}
-
-span {
-    position: fixed;
-    background-color: hsl(180, 70%, 15%);
-    padding: 0.5em 0.9em;
-    width: 100%;
-    margin: 0em;
 }
 
 div button {
@@ -81,7 +76,6 @@ div button {
     width: 90%;
     background-color: hsl(0, 0%, 90%);
     color: hsl(180, 70%, 25%);
-    ;
     text-shadow: 2px 2px 5px black;
     cursor: pointer;
     text-align: center;
@@ -192,17 +186,13 @@ button:focus {outline:0;}
 
   .progress-container {
     width: 100%;
-    height: 8px;
-    background: rgb(245, 244, 224);
+    height: 0.2em;
     position: fixed;
-    background-color: hsl(180, 70%, 15%);
-    padding-left: 0.5em;
-    width: 100%;
-    margin: 0em;
+    background-color: hsl(180, 71%, 20%);
   }
   
   .progress-bar {
-    height: 8px;
+    height: 0.2em;
     background: yellow;
     width: 0%;
   }
