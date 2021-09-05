@@ -29,6 +29,10 @@ body {
     margin: 0em;
 }
 
+#title h1{
+    font-size: smaller;
+}
+
 h3, h5, h4, p {
     text-align: center;
     margin: 0.1em 1em;
