@@ -20,6 +20,9 @@ body {
     margin: 0;
 }
 
+.sharethis-inline-share-buttons{
+    margin: auto 10%;
+}
 #title {
     color: rgb(4, 148, 148);
     position: fixed;
