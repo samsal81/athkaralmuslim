@@ -76,18 +76,40 @@ hr {
     border-top: medium double;
 }
 
-div button {
+#myNav button {
     border-radius: 20px;
     border: none;
     display: inline-block;
     width: 90%;
-    background-color: hsl(0, 0%, 90%);
-    color: hsl(180, 70%, 25%);
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(180, 70%, 25%);
     text-shadow: 2px 2px 5px black;
     cursor: pointer;
     text-align: center;
     margin: 1.5em;
     padding: 0em;
+}
+
+.btngrp {
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btngrp button {
+    color: hsl(180, 70%, 25%);
+    background-color: yellow;
+    cursor: pointer;
+    margin: 0.5em auto;
+    padding: 0em;
+    border-radius: 5px;
+}
+
+.btngrp button a {
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: x-large;
+    margin: 0.5em auto;
 }
 
 .counter h1 a {
