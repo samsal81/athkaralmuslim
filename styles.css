@@ -118,6 +118,8 @@ hr {
 
 .counter h1 a {
     font-size: 150%;
+    color: hsl(180, 70%, 25%);
+    text-shadow: 2px 2px 5px black;
 }
 
 h1 {
@@ -133,6 +135,31 @@ h1 {
     align-items: center;
     display: flex;
 }
+
+.counter button {
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+    width: 90%;
+    background-color: hsl(0, 0%, 70%);
+    cursor: pointer;
+    text-align: center;
+    margin: 1em;
+    padding: 0em;
+    box-shadow: 0px 8px 15px hsl(46, 100%, 60%);
+    transition: all 0.3s ease 0s;
+}
+
+.counter button:hover {
+    box-shadow: 0px 15px 20px hsl(46, 100%, 60%, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .counter button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .overlay {
     height: 100%;
