@@ -30,6 +30,7 @@ body {
     padding: 0.5em 0.9em;
     width: 100%;
     margin: 0em;
+    z-index: 1;
 }
 
 #title h1{
@@ -93,6 +94,50 @@ hr {
     padding: 0.2em;
     color: hsl(0, 0%, 80%);
 }
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-y: scroll;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    top: 5.5em;
+}
+
+#myNav button:active {
+    transform: translateY(4px);
+    background-color: hsl(60, 100%, 90%);
+}
+
+.overlay a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:focus {
+    color: hsl(0, 0%, 90%);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    right: 0.5em;
+    top: 0.08em;
+    margin-bottom: 1em;
+    font-size: 3rem;
+}
 
 .btngrp {
     width: 75%;
@@ -141,7 +186,7 @@ h1 {
     border: none;
     display: inline-block;
     width: 90%;
-    background-color: hsl(0, 0%, 70%);
+    background-color: hsl(0, 0%, 85%);
     cursor: pointer;
     text-align: center;
     margin: 1em;
@@ -150,70 +195,9 @@ h1 {
     transition: all 0.3s ease 0s;
 }
 
-.counter button:hover {
-    box-shadow: 0px 15px 20px hsl(46, 100%, 60%, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-  }
-
-  .counter button:active {
-    box-shadow: 0 5px #666;
+.counter button:active {
+    box-shadow: 0 5px hsl(0, 0%, 0%, 0.4);
     transform: translateY(4px);
-  }
-
-.overlay {
-    height: 100%;
-    width: 0%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgb(0, 0, 0);
-    overflow-y: scroll;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    height: 100%;
-    text-align: center;
-    top: 5.5em;
-}
-
-.overlay-content button {
-    border-radius: 20px;
-    border: none;
-    display: inline-block;
-    width: 90%;
-    background-color: teal;
-    text-shadow: 2px 2px 5px gray;
-    color: hsl(0, 0%, 90%);
-    padding: 0 auto;
-    cursor: pointer;
-    text-align: center;
-    margin: 0.5rem auto;
-}
-
-.overlay a {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-size: 2rem;
-    color: hsl(0, 0%, 90%);
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:focus {
-    color: hsl(0, 0%, 90%);
-}
-
-.overlay .closebtn {
-    position: absolute;
-    right: 0.5em;
-    top: 0.08em;
-    margin-bottom: 1em;
-    font-size: 3rem;
 }
 
 #margin {
