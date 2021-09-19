@@ -12,6 +12,7 @@ main {
     padding: 0;
     max-width: 1000px;
     margin: 0 auto;
+    width: 100%;
 }
 
 body {
@@ -240,6 +241,7 @@ button:focus {outline:0;}
     height: 0.2em;
     position: fixed;
     background-color: hsl(180, 71%, 20%);
+    z-index: 1;
   }
   
   .progress-bar {
