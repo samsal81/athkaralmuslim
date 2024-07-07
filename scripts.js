@@ -6,6 +6,15 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
+fetch('navigation.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navigation').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching navigation.html:', error);
+            });
+
 var clicks1 = document.getElementById("clicks1").innerHTML;
 
 function onClick1() {
