@@ -15,8 +15,6 @@ fetch('navigation.html')
                 console.error('Error fetching navigation.html:', error);
             });
 
-var clicks1 = document.getElementById("clicks1").innerHTML;
-
 function onClick(element) {
     var clicks = element.innerHTML;
     if (clicks > 0) {
