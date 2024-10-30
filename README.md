@@ -20,3 +20,40 @@ The README lists the different categories of Athkar that the website organizes:
 ### Summary
 
 #### Website address: https://samsal81.github.io/athkaralmuslim/
+
+### How to Run the Project
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/samsal81/athkaralmuslim.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd athkaralmuslim
+    ```
+3. **Open `index.html` in your browser** to view the website.
+
+### Technologies Used
+
+- **HTML**: For structuring the content.
+- **CSS**: For styling the content.
+- **JavaScript**: For interactive features.
+- **W3.CSS**: A CSS framework for responsive design.
+- **Font Awesome**: For icons.
+
+### Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
